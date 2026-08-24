@@ -1,4 +1,4 @@
-# Vision Ops â€” Growth Command Center
+# Vision Ops — Growth Command Center
 
 Live demo: [vision-growth-dashboard.vercel.app](https://vision-growth-dashboard.vercel.app)
 
@@ -49,28 +49,28 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build
 ```
 
-## PortuguÃªs
+## Português
 
 ### Objetivo
 
-Vision Ops Ã© um protÃ³tipo de teste tÃ©cnico para uma operaÃ§Ã£o de ecommerce DTC com assinaturas. Mostra como um dashboard interno pode transformar dados fragmentados e tracking pouco confiÃ¡vel em sinais operacionais visÃ­veis e acionÃ¡veis.
+Vision Ops é um protótipo de teste técnico para uma operação de ecommerce DTC com assinaturas. Mostra como um dashboard interno pode transformar dados fragmentados e tracking pouco confiável em sinais operacionais visíveis e acionáveis.
 
 ### O que inclui
 
-- Painel de aquisiÃ§Ã£o com receita, pedidos, conversÃ£o blended e taxa de recompra.
-- Funil de conversÃ£o de sessÃµes atÃ© pedidos, com identificaÃ§Ã£o do maior vazamento.
-- VisÃ£o de saÃºde da assinatura, LTV projetado para 90 dias e coortes de retenÃ§Ã£o.
-- Registro de riscos de tracking e integraÃ§Ãµes, priorizado por gravidade e responsÃ¡vel.
-- BotÃ£o de atualizaÃ§Ã£o conectado a uma rota de API do Next.js, que consulta a API mock pÃºblica [JSONPlaceholder](https://jsonplaceholder.typicode.com/) e deriva mÃ©tricas do painel.
-- Resposta de fallback para manter o painel utilizÃ¡vel caso a API mock fique indisponÃ­vel.
+- Painel de aquisição com receita, pedidos, conversão blended e taxa de recompra.
+- Funil de conversão de sessões até pedidos, com identificação do maior vazamento.
+- Visão de saúde da assinatura, LTV projetado para 90 dias e coortes de retenção.
+- Registro de riscos de tracking e integrações, priorizado por gravidade e responsável.
+- Botão de atualização conectado a uma rota de API do Next.js, que consulta a API mock pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/) e deriva métricas do painel.
+- Resposta de fallback para manter o painel utilizável caso a API mock fique indisponível.
 
 ### Escopo da auditoria
 
-A auditoria de checkout Ã© uma checklist ilustrativa de prÃ©-lanÃ§amento para uma stack de direct response. Ela aponta falhas comuns e crÃ­ticas para o negÃ³cio:
+A auditoria de checkout é uma checklist ilustrativa de pré-lançamento para uma stack de direct response. Ela aponta falhas comuns e críticas para o negócio:
 
-1. Eventos de compra no browser e no servidor sem `event_id` compartilhado para deduplicaÃ§Ã£o.
+1. Eventos de compra no browser e no servidor sem `event_id` compartilhado para deduplicação.
 2. UTMs perdidas na passagem da landing page para o checkout.
-3. Rebills de assinatura sem vÃ­nculo com a origem de aquisiÃ§Ã£o inicial.
+3. Rebills de assinatura sem vínculo com a origem de aquisição inicial.
 4. Monitoramento de erro de pagamento sem alerta operacional.
 
 ### Tecnologias
@@ -90,7 +90,7 @@ npm run dev
 
 Abra [http://localhost:3000](http://localhost:3000).
 
-### Build de produÃ§Ã£o
+### Build de produção
 
 ```bash
 npm run build
@@ -99,4 +99,3 @@ npm run build
 ## Notes
 
 This repository intentionally uses mock data and an illustrative checkout audit. It does not process customer, payment, or production analytics data.
-
